@@ -67,7 +67,7 @@ if p==1:
     plt.tick_params(labelsize=30)
     plt.show()
     end_at=datetime.datetime.now()
-    print ("time consumed: {}".format(end_at-start_at))
+print ("time consumed: {}".format(end_at-start_at))
 
 start_at=datetime.datetime.now()
 if s==1:
